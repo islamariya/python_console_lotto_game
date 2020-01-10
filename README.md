@@ -5,7 +5,7 @@ Number of players: 2, computer and you
 
 Number of barrels: from 1 to 90
 
-Cards per Player: 1 units
+Cards per Player: 1 unit
 
 Play card has an individual grid of 27 squares made up of 3 rows and 9 columns.
 Each row contains 5 numbers and 4 blank squares. 15 numbers appear on every card.
