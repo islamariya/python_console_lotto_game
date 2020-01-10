@@ -16,3 +16,6 @@ Dealer is the person that reads out the randomly chosen barrels that determine w
 Each player covers squares and needs to cover all 15 numbers in card to win. 
 To cover the number represented by chosen barrel player should confirm that there is number in play card via input. 
 If player is mistaken, the game overs and computer wins. 
+
+!(https://github.com/islamariya/python_console_lotto_game/raw/master/game%20start.jpg)
+!(game.jpg)
