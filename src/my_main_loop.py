@@ -10,12 +10,17 @@ class Order(object):
     cooking_time: datetime
     # как сделать? или str где оно используется и для чего нужно
 
-    # результат функции строка 25
+    # проставляется в функции def is_order_ready строка 30
     is_ready: bool
+    # результат функции строка 40
     liquidation_time_oven: datetime
+    # результат блока фнукций строка 45
     liquidation_time_pick_point: datetime
+    # cnhjrf 63
     is_received: bool
+    # пока без функции
     is_order_thrown_out: bool
+
     is_order_closed: bool
 
     #выдача
@@ -24,7 +29,7 @@ class Order(object):
 
     def is_order_ready(self):
         """Boolean. Если оба блюда готовы, то готово, можно выдавать. ? Как проставляется. След шаг: отправь на
-        телевизор, запусти таймеер"""
+        телевизор (inform_tv_order_is_ready), запусти таймер (set_oven_timer_for_liquidation)"""
         pass
 
     def inform_tv_order_is_ready(self):
