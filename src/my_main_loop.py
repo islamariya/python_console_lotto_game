@@ -10,6 +10,7 @@ class Order(object):
     cooking_time: datetime
     # как сделать? или str где оно используется и для чего нужно
 
+    # результат функции строка 25
     is_ready: bool
     liquidation_time_oven: datetime
     liquidation_time_pick_point: datetime
